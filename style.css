@@ -139,13 +139,16 @@ a:hover {
 }
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 15vh;
+    height: 70vh;
     margin: 0 10rem;
     box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
     display: flex;
     justify-content: center;
-    min-height: fit-content;
 }
 
 #profile {
@@ -245,4 +248,12 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+#about {
+    display: inline;
+}
+
+.section-container {
+    margin: 
 }
