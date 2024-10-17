@@ -314,7 +314,7 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -324,7 +324,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 0.5rem;
 }
 
@@ -368,5 +368,11 @@ article .icon {
 }
 
 .email-icon {
-    height: 6rem;
+    height: 6.2rem;
 }
+
+footer {
+    height: 26hv;
+    margin: 0 1rem;
+}
+
